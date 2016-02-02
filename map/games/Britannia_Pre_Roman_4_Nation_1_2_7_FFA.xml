@@ -1,0 +1,1428 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="Britannia: Pre_Roman_4_Nation_FFA" version="1.2.6"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <map>
+    <!-- Territory Definitions -->
+    <territory name="Verumandui"/>
+    <territory name="Bagacum"/>
+    <territory name="Gesoriacum"/>
+    <territory name="Smertae"/>
+    <territory name="S. Caledonii"/>
+    <territory name="Creones"/>
+    <territory name="N. Caledonii"/>
+    <territory name="Leodhas"/>
+    <territory name="Caereni"/>
+    <territory name="Skye"/>
+    <territory name="E. Taexali"/>
+    <territory name="Cornovii"/>
+    <territory name="Sealtainn"/>
+    <territory name="Orcades"/>
+    <territory name="S. Taexali"/>
+    <territory name="Vacomagi"/>
+    <territory name="N.Taexali"/>
+    <territory name="C. Brigantes"/>
+    <territory name="Corionototae"/>
+    <territory name="Carvetii"/>
+    <territory name="N. Brigantes"/>
+    <territory name="N. Rheged"/>
+    <territory name="S. Rheged"/>
+    <territory name="S. Brigantes"/>
+    <territory name="Verulamium"/>
+    <territory name="E. Catuvellauni"/>
+    <territory name="Camulodunum"/>
+    <territory name="Llundein"/>
+    <territory name="Trinovantes"/>
+    <territory name="Cantiaci"/>
+    <territory name="W. Catuvellauni"/>
+    <territory name="Ordovices"/>
+    <territory name="Mona"/>
+    <territory name="W. Demetae"/>
+    <territory name="Gangani"/>
+    <territory name="E. Dumnonii"/>
+    <territory name="W. Dumnonii"/>
+    <territory name="Silures"/>
+    <territory name="S. Demetae"/>
+    <territory name="N. Demetae"/>
+    <territory name="SZ50" water="true"/>
+    <territory name="SZ51" water="true"/>
+    <territory name="SZ54" water="true"/>
+    <territory name="SZ55" water="true"/>
+    <territory name="SZ52" water="true"/>
+    <territory name="SZ53" water="true"/>
+    <territory name="SZ58" water="true"/>
+    <territory name="Epidii"/>
+    <territory name="SZ9" water="true"/>
+    <territory name="SZ59" water="true"/>
+    <territory name="SZ8" water="true"/>
+    <territory name="SZ56" water="true"/>
+    <territory name="SZ7" water="true"/>
+    <territory name="SZ57" water="true"/>
+    <territory name="Iceni"/>
+    <territory name="SZ1" water="true"/>
+    <territory name="SZ2" water="true"/>
+    <territory name="SZ5" water="true"/>
+    <territory name="SZ6" water="true"/>
+    <territory name="N. Belgiae"/>
+    <territory name="SZ3" water="true"/>
+    <territory name="SZ4" water="true"/>
+    <territory name="W. Coritani"/>
+    <territory name="SZ60" water="true"/>
+    <territory name="SZ61" water="true"/>
+    <territory name="SZ62" water="true"/>
+    <territory name="SZ63" water="true"/>
+    <territory name="Ergyng"/>
+    <territory name="E. Coritani"/>
+    <territory name="SZ64" water="true"/>
+    <territory name="Parisii"/>
+    <territory name="SZ32" water="true"/>
+    <territory name="SZ33" water="true"/>
+    <territory name="SZ30" water="true"/>
+    <territory name="SZ31" water="true"/>
+    <territory name="Atrebates"/>
+    <territory name="S. Cornovii"/>
+    <territory name="SZ38" water="true"/>
+    <territory name="SZ39" water="true"/>
+    <territory name="SZ36" water="true"/>
+    <territory name="SZ37" water="true"/>
+    <territory name="SZ34" water="true"/>
+    <territory name="SZ35" water="true"/>
+    <territory name="W. Novantae"/>
+    <territory name="Mannin"/>
+    <territory name="SZ41" water="true"/>
+    <territory name="SZ42" water="true"/>
+    <territory name="SZ43" water="true"/>
+    <territory name="SZ44" water="true"/>
+    <territory name="Regni"/>
+    <territory name="N. Damnoni"/>
+    <territory name="SZ40" water="true"/>
+    <territory name="SZ49" water="true"/>
+    <territory name="SZ45" water="true"/>
+    <territory name="SZ46" water="true"/>
+    <territory name="SZ47" water="true"/>
+    <territory name="SZ48" water="true"/>
+    <territory name="N. Durotriges"/>
+    <territory name="S. Damnoni"/>
+    <territory name="SZ13" water="true"/>
+    <territory name="SZ12" water="true"/>
+    <territory name="SZ15" water="true"/>
+    <territory name="SZ14" water="true"/>
+    <territory name="SZ17" water="true"/>
+    <territory name="SZ16" water="true"/>
+    <territory name="SZ19" water="true"/>
+    <territory name="SZ18" water="true"/>
+    <territory name="N. Cornovii"/>
+    <territory name="Selgovae"/>
+    <territory name="SZ11" water="true"/>
+    <territory name="SZ10" water="true"/>
+    <territory name="N. Votadini"/>
+    <territory name="Dobunni"/>
+    <territory name="Islay"/>
+    <territory name="SZ26" water="true"/>
+    <territory name="SZ25" water="true"/>
+    <territory name="SZ24" water="true"/>
+    <territory name="SZ23" water="true"/>
+    <territory name="SZ29" water="true"/>
+    <territory name="SZ28" water="true"/>
+    <territory name="SZ27" water="true"/>
+    <territory name="SZ22" water="true"/>
+    <territory name="SZ21" water="true"/>
+    <territory name="SZ20" water="true"/>
+    <territory name="E. Novantae"/>
+    <territory name="Strathclyde"/>
+    <territory name="S. Durotriges"/>
+    <territory name="Deceangli"/>
+    <territory name="Venicones"/>
+    <territory name="S. Votadini"/>
+    <territory name="S. Belgiae"/>
+    <!-- Territory Connections -->
+    <connection t1="Verumandui" t2="Bagacum"/>
+    <connection t1="Gesoriacum" t2="Bagacum"/>
+    <connection t1="Gesoriacum" t2="SZ50"/>
+    <connection t1="Smertae" t2="Cornovii"/>
+    <connection t1="Smertae" t2="N. Caledonii"/>
+    <connection t1="Smertae" t2="SZ63"/>
+    <connection t1="S. Caledonii" t2="S. Taexali"/>
+    <connection t1="S. Caledonii" t2="Epidii"/>
+    <connection t1="Creones" t2="SZ19"/>
+    <connection t1="Creones" t2="SZ25"/>
+    <connection t1="Creones" t2="N. Caledonii"/>
+    <connection t1="N. Caledonii" t2="S. Caledonii"/>
+    <connection t1="N. Caledonii" t2="Epidii"/>
+    <connection t1="Leodhas" t2="SZ12"/>
+    <connection t1="Leodhas" t2="SZ17"/>
+    <connection t1="Leodhas" t2="SZ19"/>
+    <connection t1="Caereni" t2="Smertae"/>
+    <connection t1="Caereni" t2="Cornovii"/>
+    <connection t1="Caereni" t2="N. Caledonii"/>
+    <connection t1="Skye" t2="N. Caledonii"/>
+    <connection t1="Skye" t2="Caereni"/>
+    <connection t1="Skye" t2="SZ18"/>
+    <connection t1="E. Taexali" t2="S. Taexali"/>
+    <connection t1="E. Taexali" t2="SZ61"/>
+    <connection t1="E. Taexali" t2="SZ60"/>
+    <connection t1="Cornovii" t2="SZ18"/>
+    <connection t1="Sealtainn" t2="SZ9"/>
+    <connection t1="Sealtainn" t2="SZ6"/>
+    <connection t1="Sealtainn" t2="SZ5"/>
+    <connection t1="Orcades" t2="SZ10"/>
+    <connection t1="S. Taexali" t2="SZ61"/>
+    <connection t1="S. Taexali" t2="N.Taexali"/>
+    <connection t1="Vacomagi" t2="N. Caledonii"/>
+    <connection t1="Vacomagi" t2="SZ63"/>
+    <connection t1="N.Taexali" t2="Vacomagi"/>
+    <connection t1="N.Taexali" t2="N. Caledonii"/>
+    <connection t1="N.Taexali" t2="E. Taexali"/>
+    <connection t1="N.Taexali" t2="S. Caledonii"/>
+    <connection t1="N.Taexali" t2="SZ63"/>
+    <connection t1="N.Taexali" t2="SZ62"/>
+    <connection t1="N.Taexali" t2="SZ60"/>
+    <connection t1="C. Brigantes" t2="SZ56"/>
+    <connection t1="C. Brigantes" t2="Corionototae"/>
+    <connection t1="C. Brigantes" t2="Parisii"/>
+    <connection t1="C. Brigantes" t2="S. Brigantes"/>
+    <connection t1="C. Brigantes" t2="S. Rheged"/>
+    <connection t1="Corionototae" t2="S. Votadini"/>
+    <connection t1="Corionototae" t2="SZ56"/>
+    <connection t1="Carvetii" t2="N. Rheged"/>
+    <connection t1="Carvetii" t2="Corionototae"/>
+    <connection t1="N. Brigantes" t2="Selgovae"/>
+    <connection t1="N. Brigantes" t2="Corionototae"/>
+    <connection t1="N. Brigantes" t2="Carvetii"/>
+    <connection t1="N. Rheged" t2="Corionototae"/>
+    <connection t1="N. Rheged" t2="C. Brigantes"/>
+    <connection t1="S. Rheged" t2="S. Brigantes"/>
+    <connection t1="S. Rheged" t2="N. Rheged"/>
+    <connection t1="S. Brigantes" t2="E. Coritani"/>
+    <connection t1="S. Brigantes" t2="W. Coritani"/>
+    <connection t1="Verulamium" t2="Camulodunum"/>
+    <connection t1="Verulamium" t2="Llundein"/>
+    <connection t1="Verulamium" t2="W. Catuvellauni"/>
+    <connection t1="Verulamium" t2="Iceni"/>
+    <connection t1="E. Catuvellauni" t2="Verulamium"/>
+    <connection t1="E. Catuvellauni" t2="Iceni"/>
+    <connection t1="E. Catuvellauni" t2="E. Coritani"/>
+    <connection t1="Camulodunum" t2="SZ49"/>
+    <connection t1="Camulodunum" t2="SZ48"/>
+    <connection t1="Camulodunum" t2="Iceni"/>
+    <connection t1="Llundein" t2="Atrebates"/>
+    <connection t1="Llundein" t2="Trinovantes"/>
+    <connection t1="Llundein" t2="SZ48"/>
+    <connection t1="Trinovantes" t2="SZ48"/>
+    <connection t1="Trinovantes" t2="Camulodunum"/>
+    <connection t1="Trinovantes" t2="Verulamium"/>
+    <connection t1="Cantiaci" t2="Llundein"/>
+    <connection t1="Cantiaci" t2="SZ48"/>
+    <connection t1="W. Catuvellauni" t2="E. Catuvellauni"/>
+    <connection t1="W. Catuvellauni" t2="Llundein"/>
+    <connection t1="Ordovices" t2="S. Cornovii"/>
+    <connection t1="Ordovices" t2="SZ30"/>
+    <connection t1="Ordovices" t2="S. Demetae"/>
+    <connection t1="Ordovices" t2="Silures"/>
+    <connection t1="Mona" t2="Gangani"/>
+    <connection t1="W. Demetae" t2="SZ39"/>
+    <connection t1="W. Demetae" t2="SZ30"/>
+    <connection t1="W. Demetae" t2="N. Demetae"/>
+    <connection t1="Gangani" t2="Ordovices"/>
+    <connection t1="Gangani" t2="Deceangli"/>
+    <connection t1="Gangani" t2="SZ30"/>
+    <connection t1="Gangani" t2="SZ27"/>
+    <connection t1="E. Dumnonii" t2="W. Dumnonii"/>
+    <connection t1="W. Dumnonii" t2="S. Durotriges"/>
+    <connection t1="W. Dumnonii" t2="SZ44"/>
+    <connection t1="Silures" t2="Ergyng"/>
+    <connection t1="Silures" t2="Dobunni"/>
+    <connection t1="Silures" t2="SZ39"/>
+    <connection t1="S. Demetae" t2="W. Demetae"/>
+    <connection t1="S. Demetae" t2="Silures"/>
+    <connection t1="N. Demetae" t2="SZ30"/>
+    <connection t1="N. Demetae" t2="Ordovices"/>
+    <connection t1="N. Demetae" t2="S. Demetae"/>
+    <connection t1="SZ50" t2="SZ51"/>
+    <connection t1="SZ51" t2="SZ52"/>
+    <connection t1="SZ54" t2="SZ53"/>
+    <connection t1="SZ55" t2="SZ57"/>
+    <connection t1="SZ55" t2="SZ56"/>
+    <connection t1="SZ55" t2="SZ53"/>
+    <connection t1="SZ55" t2="C. Brigantes"/>
+    <connection t1="SZ55" t2="SZ54"/>
+    <connection t1="SZ52" t2="SZ58"/>
+    <connection t1="SZ53" t2="SZ52"/>
+    <connection t1="SZ53" t2="SZ57"/>
+    <connection t1="SZ53" t2="SZ51"/>
+    <connection t1="SZ58" t2="SZ8"/>
+    <connection t1="SZ58" t2="SZ59"/>
+    <connection t1="SZ58" t2="SZ57"/>
+    <connection t1="Epidii" t2="N. Damnoni"/>
+    <connection t1="SZ9" t2="SZ8"/>
+    <connection t1="SZ9" t2="SZ10"/>
+    <connection t1="SZ59" t2="SZ8"/>
+    <connection t1="SZ59" t2="SZ9"/>
+    <connection t1="SZ59" t2="SZ62"/>
+    <connection t1="SZ59" t2="SZ60"/>
+    <connection t1="SZ59" t2="SZ57"/>
+    <connection t1="SZ8" t2="SZ6"/>
+    <connection t1="SZ56" t2="S. Votadini"/>
+    <connection t1="SZ7" t2="SZ8"/>
+    <connection t1="SZ57" t2="SZ56"/>
+    <connection t1="SZ57" t2="SZ52"/>
+    <connection t1="Iceni" t2="SZ49"/>
+    <connection t1="Iceni" t2="SZ54"/>
+    <connection t1="SZ1" t2="SZ2"/>
+    <connection t1="SZ1" t2="SZ14"/>
+    <connection t1="SZ1" t2="SZ13"/>
+    <connection t1="SZ2" t2="SZ3"/>
+    <connection t1="SZ2" t2="SZ13"/>
+    <connection t1="SZ2" t2="SZ12"/>
+    <connection t1="SZ5" t2="SZ6"/>
+    <connection t1="SZ6" t2="SZ7"/>
+    <connection t1="SZ6" t2="SZ9"/>
+    <connection t1="N. Belgiae" t2="Atrebates"/>
+    <connection t1="N. Belgiae" t2="S. Belgiae"/>
+    <connection t1="SZ3" t2="SZ4"/>
+    <connection t1="SZ3" t2="SZ12"/>
+    <connection t1="SZ4" t2="SZ5"/>
+    <connection t1="SZ4" t2="SZ11"/>
+    <connection t1="W. Coritani" t2="E. Coritani"/>
+    <connection t1="W. Coritani" t2="E. Catuvellauni"/>
+    <connection t1="W. Coritani" t2="W. Catuvellauni"/>
+    <connection t1="SZ60" t2="SZ62"/>
+    <connection t1="SZ60" t2="SZ57"/>
+    <connection t1="SZ60" t2="SZ56"/>
+    <connection t1="SZ61" t2="SZ60"/>
+    <connection t1="SZ61" t2="SZ56"/>
+    <connection t1="SZ62" t2="SZ9"/>
+    <connection t1="SZ62" t2="SZ10"/>
+    <connection t1="SZ62" t2="Orcades"/>
+    <connection t1="SZ63" t2="SZ62"/>
+    <connection t1="SZ63" t2="Orcades"/>
+    <connection t1="SZ63" t2="Cornovii"/>
+    <connection t1="Ergyng" t2="Ordovices"/>
+    <connection t1="Ergyng" t2="S. Cornovii"/>
+    <connection t1="Ergyng" t2="Dobunni"/>
+    <connection t1="E. Coritani" t2="SZ54"/>
+    <connection t1="E. Coritani" t2="Iceni"/>
+    <connection t1="SZ64" t2="SZ11"/>
+    <connection t1="SZ64" t2="SZ63"/>
+    <connection t1="SZ64" t2="Orcades"/>
+    <connection t1="SZ64" t2="Cornovii"/>
+    <connection t1="Parisii" t2="SZ55"/>
+    <connection t1="Parisii" t2="S. Brigantes"/>
+    <connection t1="Parisii" t2="E. Coritani"/>
+    <connection t1="Parisii" t2="SZ54"/>
+    <connection t1="SZ32" t2="SZ31"/>
+    <connection t1="SZ33" t2="SZ37"/>
+    <connection t1="SZ33" t2="SZ32"/>
+    <connection t1="SZ33" t2="SZ34"/>
+    <connection t1="SZ30" t2="SZ27"/>
+    <connection t1="SZ30" t2="Mona"/>
+    <connection t1="SZ31" t2="SZ29"/>
+    <connection t1="SZ31" t2="SZ30"/>
+    <connection t1="SZ31" t2="SZ39"/>
+    <connection t1="SZ31" t2="W. Demetae"/>
+    <connection t1="Atrebates" t2="W. Catuvellauni"/>
+    <connection t1="Atrebates" t2="Regni"/>
+    <connection t1="S. Cornovii" t2="W. Coritani"/>
+    <connection t1="SZ38" t2="E. Dumnonii"/>
+    <connection t1="SZ38" t2="SZ39"/>
+    <connection t1="SZ38" t2="SZ32"/>
+    <connection t1="SZ38" t2="SZ31"/>
+    <connection t1="SZ38" t2="SZ37"/>
+    <connection t1="SZ38" t2="SZ42"/>
+    <connection t1="SZ39" t2="S. Demetae"/>
+    <connection t1="SZ39" t2="N. Belgiae"/>
+    <connection t1="SZ39" t2="N. Durotriges"/>
+    <connection t1="SZ39" t2="W. Dumnonii"/>
+    <connection t1="SZ39" t2="Dobunni"/>
+    <connection t1="SZ36" t2="SZ40"/>
+    <connection t1="SZ36" t2="SZ37"/>
+    <connection t1="SZ36" t2="SZ33"/>
+    <connection t1="SZ37" t2="SZ32"/>
+    <connection t1="SZ37" t2="SZ41"/>
+    <connection t1="SZ34" t2="SZ35"/>
+    <connection t1="SZ35" t2="SZ22"/>
+    <connection t1="SZ35" t2="SZ23"/>
+    <connection t1="SZ35" t2="SZ33"/>
+    <connection t1="W. Novantae" t2="N. Brigantes"/>
+    <connection t1="SZ41" t2="SZ42"/>
+    <connection t1="SZ42" t2="E. Dumnonii"/>
+    <connection t1="SZ42" t2="W. Dumnonii"/>
+    <connection t1="SZ43" t2="SZ42"/>
+    <connection t1="SZ43" t2="SZ41"/>
+    <connection t1="SZ43" t2="SZ44"/>
+    <connection t1="SZ43" t2="SZ45"/>
+    <connection t1="SZ44" t2="SZ46"/>
+    <connection t1="SZ44" t2="S. Belgiae"/>
+    <connection t1="SZ44" t2="SZ42"/>
+    <connection t1="Regni" t2="Cantiaci"/>
+    <connection t1="Regni" t2="Llundein"/>
+    <connection t1="Regni" t2="SZ47"/>
+    <connection t1="N. Damnoni" t2="Venicones"/>
+    <connection t1="N. Damnoni" t2="S. Caledonii"/>
+    <connection t1="N. Damnoni" t2="Strathclyde"/>
+    <connection t1="SZ40" t2="SZ41"/>
+    <connection t1="SZ40" t2="SZ37"/>
+    <connection t1="SZ49" t2="SZ50"/>
+    <connection t1="SZ49" t2="SZ47"/>
+    <connection t1="SZ49" t2="SZ51"/>
+    <connection t1="SZ49" t2="SZ53"/>
+    <connection t1="SZ49" t2="SZ54"/>
+    <connection t1="SZ45" t2="SZ44"/>
+    <connection t1="SZ45" t2="SZ46"/>
+    <connection t1="SZ45" t2="SZ47"/>
+    <connection t1="SZ46" t2="Regni"/>
+    <connection t1="SZ46" t2="SZ47"/>
+    <connection t1="SZ47" t2="Gesoriacum"/>
+    <connection t1="SZ47" t2="SZ50"/>
+    <connection t1="SZ47" t2="SZ48"/>
+    <connection t1="SZ47" t2="Cantiaci"/>
+    <connection t1="SZ48" t2="SZ49"/>
+    <connection t1="N. Durotriges" t2="N. Belgiae"/>
+    <connection t1="N. Durotriges" t2="W. Dumnonii"/>
+    <connection t1="S. Damnoni" t2="Strathclyde"/>
+    <connection t1="S. Damnoni" t2="N. Damnoni"/>
+    <connection t1="S. Damnoni" t2="W. Novantae"/>
+    <connection t1="SZ13" t2="SZ12"/>
+    <connection t1="SZ12" t2="SZ11"/>
+    <connection t1="SZ12" t2="Cornovii"/>
+    <connection t1="SZ12" t2="SZ64"/>
+    <connection t1="SZ12" t2="SZ17"/>
+    <connection t1="SZ15" t2="SZ22"/>
+    <connection t1="SZ14" t2="SZ13"/>
+    <connection t1="SZ14" t2="SZ15"/>
+    <connection t1="SZ14" t2="SZ16"/>
+    <connection t1="SZ17" t2="SZ20"/>
+    <connection t1="SZ17" t2="SZ19"/>
+    <connection t1="SZ17" t2="SZ13"/>
+    <connection t1="SZ16" t2="SZ21"/>
+    <connection t1="SZ16" t2="SZ15"/>
+    <connection t1="SZ16" t2="SZ20"/>
+    <connection t1="SZ16" t2="SZ17"/>
+    <connection t1="SZ16" t2="SZ13"/>
+    <connection t1="SZ19" t2="Skye"/>
+    <connection t1="SZ19" t2="N. Caledonii"/>
+    <connection t1="SZ63" t2="N. Caledonii"/>
+    <connection t1="SZ19" t2="SZ20"/>
+    <connection t1="SZ19" t2="SZ25"/>
+    <connection t1="SZ18" t2="SZ19"/>
+    <connection t1="SZ18" t2="Leodhas"/>
+    <connection t1="SZ18" t2="Caereni"/>
+    <connection t1="SZ18" t2="SZ12"/>
+    <connection t1="N. Cornovii" t2="S. Rheged"/>
+    <connection t1="N. Cornovii" t2="S. Brigantes"/>
+    <connection t1="N. Cornovii" t2="S. Cornovii"/>
+    <connection t1="N. Cornovii" t2="Ordovices"/>
+    <connection t1="N. Cornovii" t2="W. Coritani"/>
+    <connection t1="Selgovae" t2="W. Novantae"/>
+    <connection t1="Selgovae" t2="Strathclyde"/>
+    <connection t1="Selgovae" t2="N. Votadini"/>
+    <connection t1="Selgovae" t2="S. Votadini"/>
+    <connection t1="Selgovae" t2="Corionototae"/>
+    <connection t1="SZ11" t2="SZ3"/>
+    <connection t1="SZ11" t2="SZ5"/>
+    <connection t1="SZ11" t2="SZ10"/>
+    <connection t1="SZ10" t2="SZ5"/>
+    <connection t1="SZ10" t2="Sealtainn"/>
+    <connection t1="SZ10" t2="SZ64"/>
+    <connection t1="N. Votadini" t2="S. Votadini"/>
+    <connection t1="N. Votadini" t2="SZ61"/>
+    <connection t1="N. Votadini" t2="N. Damnoni"/>
+    <connection t1="Dobunni" t2="W. Coritani"/>
+    <connection t1="Dobunni" t2="W. Catuvellauni"/>
+    <connection t1="Dobunni" t2="Atrebates"/>
+    <connection t1="Dobunni" t2="N. Belgiae"/>
+    <connection t1="Dobunni" t2="S. Cornovii"/>
+    <connection t1="Islay" t2="SZ25"/>
+    <connection t1="Islay" t2="SZ26"/>
+    <connection t1="Islay" t2="SZ24"/>
+    <connection t1="SZ26" t2="S. Damnoni"/>
+    <connection t1="SZ26" t2="Epidii"/>
+    <connection t1="SZ26" t2="N. Damnoni"/>
+    <connection t1="SZ26" t2="E. Novantae"/>
+    <connection t1="SZ25" t2="SZ20"/>
+    <connection t1="SZ25" t2="Epidii"/>
+    <connection t1="SZ24" t2="SZ20"/>
+    <connection t1="SZ24" t2="SZ25"/>
+    <connection t1="SZ24" t2="SZ26"/>
+    <connection t1="SZ23" t2="SZ24"/>
+    <connection t1="SZ23" t2="SZ21"/>
+    <connection t1="SZ29" t2="SZ30"/>
+    <connection t1="SZ28" t2="SZ30"/>
+    <connection t1="SZ28" t2="Mona"/>
+    <connection t1="SZ28" t2="Mannin"/>
+    <connection t1="SZ28" t2="SZ27"/>
+    <connection t1="SZ28" t2="SZ26"/>
+    <connection t1="SZ28" t2="SZ29"/>
+    <connection t1="SZ27" t2="N. Rheged"/>
+    <connection t1="SZ27" t2="Carvetii"/>
+    <connection t1="SZ27" t2="N. Brigantes"/>
+    <connection t1="SZ27" t2="W. Novantae"/>
+    <connection t1="SZ27" t2="E. Novantae"/>
+    <connection t1="SZ27" t2="S. Rheged"/>
+    <connection t1="SZ27" t2="Deceangli"/>
+    <connection t1="SZ27" t2="Mannin"/>
+    <connection t1="SZ27" t2="Mona"/>
+    <connection t1="SZ27" t2="N. Cornovii"/>
+    <connection t1="SZ27" t2="SZ26"/>
+    <connection t1="SZ22" t2="SZ23"/>
+    <connection t1="SZ21" t2="SZ20"/>
+    <connection t1="SZ21" t2="SZ15"/>
+    <connection t1="SZ21" t2="SZ22"/>
+    <connection t1="E. Novantae" t2="S. Damnoni"/>
+    <connection t1="E. Novantae" t2="W. Novantae"/>
+    <connection t1="Strathclyde" t2="W. Novantae"/>
+    <connection t1="Strathclyde" t2="N. Votadini"/>
+    <connection t1="S. Durotriges" t2="SZ44"/>
+    <connection t1="S. Durotriges" t2="N. Durotriges"/>
+    <connection t1="S. Durotriges" t2="N. Belgiae"/>
+    <connection t1="S. Durotriges" t2="S. Belgiae"/>
+    <connection t1="Deceangli" t2="Ordovices"/>
+    <connection t1="Deceangli" t2="N. Cornovii"/>
+    <connection t1="Venicones" t2="SZ61"/>
+    <connection t1="N. Damnoni" t2="SZ61"/>
+    <connection t1="Venicones" t2="S. Caledonii"/>
+    <connection t1="S. Votadini" t2="SZ61"/>
+    <connection t1="S. Belgiae" t2="SZ46"/>
+    <connection t1="S. Belgiae" t2="Regni"/>
+    <connection t1="S. Belgiae" t2="Atrebates"/>
+  </map>
+  <resourceList>
+    <resource name="techTokens"/>
+    <resource name="PUs"/>
+  </resourceList>
+  <playerList>
+    <!-- In turn order -->
+    <player name="Brigantes" optional="false"/>
+    <player name="Welsh" optional="false"/>
+    <player name="Brythons" optional="false"/>
+    <player name="Caledonians" optional="false"/>
+    <alliance player="Brigantes" alliance="Brigantes"/>
+    <alliance player="Welsh" alliance="Welsh"/>
+    <alliance player="Brythons" alliance="Brythons"/>
+    <alliance player="Caledonians" alliance="Caledonians"/>
+  </playerList>
+  <unitList>
+    <unit name="archerauxilia"/>
+    <unit name="lightauxilia"/>
+    <unit name="balaericslingers"/>
+    <unit name="auxilia"/>
+    <unit name="legionarycohort"/>
+    <unit name="ballista"/>
+    <unit name="onager"/>
+    <unit name="cavalryauxilia"/>
+    <unit name="horsearchers"/>
+    <unit name="romancavalry"/>
+    <unit name="cataphractarii"/>
+    <unit name="warelephants"/>
+    <unit name="general"/>
+    <unit name="chariot"/>
+    <unit name="lightcavalry"/>
+    <unit name="cavalry"/>
+    <unit name="slingers"/>
+    <unit name="skirmishers"/>
+    <unit name="archers"/>
+    <unit name="warband"/>
+    <unit name="swordsmen"/>
+    <unit name="berzerkers"/>
+    <unit name="warlord"/>
+    <unit name="city"/>
+    <unit name="fort"/>
+    <unit name="transport"/>
+    <unit name="bireme"/>
+    <unit name="trireme"/>
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+    <delegate name="tech_Activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <step name="brigantesBid" delegate="bid" player="Brigantes" maxRunCount="1"/>
+      <step name="brigantesBidPlace" delegate="placeBid" player="Brigantes" maxRunCount="1"/>
+      <step name="welshBid" delegate="bid" player="Welsh" maxRunCount="1"/>
+      <step name="welshBidPlace" delegate="placeBid" player="Welsh" maxRunCount="1"/>
+      <step name="brythonsBid" delegate="bid" player="Brythons" maxRunCount="1"/>
+      <step name="brythonsBidPlace" delegate="placeBid" player="Brythons" maxRunCount="1"/>
+      <step name="caledoniansBid" delegate="bid" player="Caledonians" maxRunCount="1"/>
+      <step name="caledoniansBidPlace" delegate="placeBid" player="Caledonians" maxRunCount="1"/>
+      <step name="brigantesTech" delegate="tech" player="Brigantes"/>
+      <step name="brigantesTechActivation" delegate="tech_Activation" player="Brigantes"/>
+      <step name="brigantesPurchase" delegate="purchase" player="Brigantes"/>
+      <step name="brigantesCombatMove" delegate="move" player="Brigantes"/>
+      <step name="brigantesBattle" delegate="battle" player="Brigantes"/>
+      <step name="brigantesNonCombatMove" delegate="move" player="Brigantes" display="Non Combat Move"/>
+      <step name="brigantesPlace" delegate="place" player="Brigantes"/>
+      <step name="brigantesEndTurn" delegate="endTurn" player="Brigantes"/>
+      <step name="welshTech" delegate="tech" player="Welsh"/>
+      <step name="welshTechActivation" delegate="tech_Activation" player="Welsh"/>
+      <step name="welshPurchase" delegate="purchase" player="Welsh"/>
+      <step name="welshCombatMove" delegate="move" player="Welsh"/>
+      <step name="welshBattle" delegate="battle" player="Welsh"/>
+      <step name="welshNonCombatMove" delegate="move" player="Welsh" display="Non Combat Move"/>
+      <step name="welshPlace" delegate="place" player="Welsh"/>
+      <step name="welshEndTurn" delegate="endTurn" player="Welsh"/>
+      <step name="brythonsTech" delegate="tech" player="Brythons"/>
+      <step name="brythonsTechActivation" delegate="tech_Activation" player="Brythons"/>
+      <step name="brythonsPurchase" delegate="purchase" player="Brythons"/>
+      <step name="brythonsCombatMove" delegate="move" player="Brythons"/>
+      <step name="brythonsBattle" delegate="battle" player="Brythons"/>
+      <step name="brythonsNonCombatMove" delegate="move" player="Brythons" display="Non Combat Move"/>
+      <step name="brythonsPlace" delegate="place" player="Brythons"/>
+      <step name="brythonsEndTurn" delegate="endTurn" player="Brythons"/>
+      <step name="caledoniansTech" delegate="tech" player="Caledonians"/>
+      <step name="caledoniansTechActivation" delegate="tech_Activation" player="Caledonians"/>
+      <step name="caledoniansPurchase" delegate="purchase" player="Caledonians"/>
+      <step name="caledoniansCombatMove" delegate="move" player="Caledonians"/>
+      <step name="caledoniansBattle" delegate="battle" player="Caledonians"/>
+      <step name="caledoniansNonCombatMove" delegate="move" player="Caledonians" display="Non Combat Move"/>
+      <step name="caledoniansPlace" delegate="place" player="Caledonians"/>
+      <step name="caledoniansEndTurn" delegate="endTurn" player="Caledonians"/>
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <!-- Unit Production Cost -->
+    <productionRule name="buyarcherauxilia">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="archerauxilia" quantity="2"/>
+    </productionRule>
+    <productionRule name="buylightauxilia">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="lightauxilia" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybalaericslingers">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="balaericslingers" quantity="2"/>
+    </productionRule>
+    <productionRule name="buyauxilia">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="auxilia" quantity="1"/>
+    </productionRule>
+    <productionRule name="buylegionarycohort">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="legionarycohort" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyballista">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="ballista" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyonager">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="onager" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycavalryauxilia">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="cavalryauxilia" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyhorsearchers">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="horsearchers" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyromancavalry">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="romancavalry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycataphractarii">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="cataphractarii" quantity="1"/>
+    </productionRule>
+    <productionRule name="buywarelephants">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="warelephants" quantity="1"/>
+    </productionRule>
+    <productionRule name="buygeneral">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="general" quantity="1"/>
+    </productionRule>
+    <productionRule name="buychariot">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="chariot" quantity="1"/>
+    </productionRule>
+    <productionRule name="buylightcavalry">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="lightcavalry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycavalry">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="cavalry" quantity="2"/>
+    </productionRule>
+    <productionRule name="buyslingers">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="slingers" quantity="2"/>
+    </productionRule>
+    <productionRule name="buyskirmishers">
+      <cost resource="PUs" quantity="2"/>
+      <result resourceOrUnit="skirmishers" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyarchers">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="archers" quantity="2"/>
+    </productionRule>
+    <productionRule name="buywarband">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="warband" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyswordsmen">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="swordsmen" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyberzerkers">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="berzerkers" quantity="1"/>
+    </productionRule>
+    <productionRule name="buycity">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="city" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyfort">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="fort" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytransport">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buybireme">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="bireme" quantity="1"/>
+    </productionRule>
+    <productionRule name="buytrireme">
+      <cost resource="PUs" quantity="8"/>
+      <result resourceOrUnit="trireme" quantity="1"/>
+    </productionRule>
+    <productionRule name="buywarlord">
+      <cost resource="PUs" quantity="20"/>
+      <result resourceOrUnit="warlord" quantity="1"/>
+    </productionRule>
+    <productionFrontier name="BrythonsFrontier">
+      <frontierRules name="buychariot"/>
+      <frontierRules name="buylightcavalry"/>
+      <frontierRules name="buycavalry"/>
+      <frontierRules name="buyslingers"/>
+      <frontierRules name="buyskirmishers"/>
+      <frontierRules name="buyarchers"/>
+      <frontierRules name="buywarband"/>
+      <frontierRules name="buyswordsmen"/>
+      <frontierRules name="buyberzerkers"/>
+      <frontierRules name="buycity"/>
+      <frontierRules name="buybireme"/>
+      <frontierRules name="buywarlord"/>
+    </productionFrontier>
+    <productionFrontier name="BrigantesFrontier">
+      <frontierRules name="buychariot"/>
+      <frontierRules name="buylightcavalry"/>
+      <frontierRules name="buycavalry"/>
+      <frontierRules name="buyslingers"/>
+      <frontierRules name="buyskirmishers"/>
+      <frontierRules name="buyarchers"/>
+      <frontierRules name="buywarband"/>
+      <frontierRules name="buyswordsmen"/>
+      <frontierRules name="buyberzerkers"/>
+      <frontierRules name="buycity"/>
+      <frontierRules name="buybireme"/>
+      <frontierRules name="buywarlord"/>
+    </productionFrontier>
+    <productionFrontier name="CaledoniansFrontier">
+      <frontierRules name="buychariot"/>
+      <frontierRules name="buylightcavalry"/>
+      <frontierRules name="buycavalry"/>
+      <frontierRules name="buyslingers"/>
+      <frontierRules name="buyskirmishers"/>
+      <frontierRules name="buyarchers"/>
+      <frontierRules name="buywarband"/>
+      <frontierRules name="buyswordsmen"/>
+      <frontierRules name="buyberzerkers"/>
+      <frontierRules name="buycity"/>
+      <frontierRules name="buybireme"/>
+      <frontierRules name="buywarlord"/>
+    </productionFrontier>
+    <productionFrontier name="WelshFrontier">
+      <frontierRules name="buychariot"/>
+      <frontierRules name="buylightcavalry"/>
+      <frontierRules name="buycavalry"/>
+      <frontierRules name="buyslingers"/>
+      <frontierRules name="buyskirmishers"/>
+      <frontierRules name="buyarchers"/>
+      <frontierRules name="buywarband"/>
+      <frontierRules name="buyswordsmen"/>
+      <frontierRules name="buyberzerkers"/>
+      <frontierRules name="buycity"/>
+      <frontierRules name="buybireme"/>
+      <frontierRules name="buywarlord"/>
+    </productionFrontier>
+    <playerProduction player="Caledonians" frontier="CaledoniansFrontier"/>
+    <playerProduction player="Brigantes" frontier="BrigantesFrontier"/>
+    <playerProduction player="Brythons" frontier="BrythonsFrontier"/>
+    <playerProduction player="Welsh" frontier="WelshFrontier"/>
+  </production>
+  <attatchmentList>
+    <attatchment name="unitAttatchment" attatchTo="archerauxilia" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="3"/>
+      <option name="artillery" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="lightauxilia" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="balaericslingers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="artillery" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="auxilia" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="legionarycohort" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="3"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="ballista" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="1"/>
+      <option name="artillery" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="onager" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="3"/>
+      <option name="artillery" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="cavalryauxilia" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="canBlitz" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="horsearchers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="romancavalry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="2"/>
+      <option name="canBlitz" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="cataphractarii" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="canBlitz" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="warelephants" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="5"/>
+      <option name="defense" value="5"/>
+      <option name="transportCost" value="4"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="general" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+      <option name="canBlitz" value="true"/>
+      <option name="isFactory" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="chariot" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="canBlitz" value="true"/>
+      <option name="artillery" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="lightcavalry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="canBlitz" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="cavalry" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+      <option name="canBlitz" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="slingers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="artillery" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="skirmishers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="1"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="archers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="3"/>
+      <option name="artillery" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="warband" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="swordsmen" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="berzerkers" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="1"/>
+      <option name="artillerySupportable" value="true"/>
+      <option name="transportCost" value="2"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="warlord" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+      <option name="canBlitz" value="true"/>
+      <option name="isFactory" value="true"/>
+      <option name="transportCost" value="3"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="city" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="fort" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="defense" value="4"/>
+      <option name="isTwoHit" value="true"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="bireme" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="transportCapacity" value="4"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="trireme" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="isSea" value="true"/>
+      <option name="transportCapacity" value="6"/>
+    </attatchment>
+    <attatchment name="unitAttatchment" attatchTo="transport" javaClass="games.strategy.triplea.attatchments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="1"/>
+      <option name="isSea" value="true"/>
+      <option name="transportCapacity" value="8"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Verumandui" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Bagacum" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gesoriacum" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Smertae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Caledonii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Creones" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Caledonii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Leodhas" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Caereni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Caledonians"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Skye" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="E. Taexali" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cornovii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Sealtainn" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Orcades" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Taexali" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Vacomagi" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N.Taexali" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="C. Brigantes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Brigantes"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Corionototae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Carvetii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Brigantes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Rheged" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Rheged" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Brigantes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Verulamium" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Brythons"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="E. Catuvellauni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Camulodunum" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Llundein" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Trinovantes" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Cantiaci" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W. Catuvellauni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ordovices" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="7"/>
+      <option name="capital" value="Welsh"/>
+      <option name="victoryCity" value="true"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mona" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W. Demetae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Gangani" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="E. Dumnonii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W. Dumnonii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Silures" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Demetae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Demetae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Epidii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Iceni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Belgiae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W. Coritani" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Ergyng" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="E. Coritani" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Parisii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Atrebates" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Cornovii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="W. Novantae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Mannin" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Regni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Damnoni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Durotriges" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Damnoni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Cornovii" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Selgovae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="N. Votadini" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Dobunni" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Islay" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="E. Novantae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Strathclyde" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Durotriges" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Deceangli" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="Venicones" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Votadini" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attatchment>
+    <attatchment name="territoryAttatchment" attatchTo="S. Belgiae" javaClass="games.strategy.triplea.attatchments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attatchment>
+    <attatchment name="canalAttatchment1" attatchTo="SZ30" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="anglesey"/>
+      <option name="landTerritories" value="Mona:Gangani"/>
+    </attatchment>
+    <attatchment name="canalAttatchment1" attatchTo="SZ27" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="anglesey"/>
+      <option name="landTerritories" value="Mona:Gangani"/>
+    </attatchment>
+    <attatchment name="canalAttatchment6" attatchTo="SZ63" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="pentland"/>
+      <option name="landTerritories" value="Cornovii:Orcades"/>
+    </attatchment>
+    <attatchment name="canalAttatchment6" attatchTo="SZ64" javaClass="games.strategy.triplea.attatchments.CanalAttachment" type="territory">
+      <option name="canalName" value="pentland"/>
+      <option name="landTerritories" value="Cornovii:Orcades"/>
+    </attatchment>
+  </attatchmentList>
+  <initialize>
+    <ownerInitialize>
+      <territoryOwner territory="Smertae" owner="Caledonians"/>
+      <territoryOwner territory="S. Caledonii" owner="Caledonians"/>
+      <territoryOwner territory="Creones" owner="Caledonians"/>
+      <territoryOwner territory="N. Caledonii" owner="Caledonians"/>
+      <territoryOwner territory="Leodhas" owner="Caledonians"/>
+      <territoryOwner territory="Caereni" owner="Caledonians"/>
+      <territoryOwner territory="Skye" owner="Caledonians"/>
+      <territoryOwner territory="Cornovii" owner="Caledonians"/>
+      <territoryOwner territory="Orcades" owner="Caledonians"/>
+      <territoryOwner territory="C. Brigantes" owner="Brigantes"/>
+      <territoryOwner territory="Selgovae" owner="Brigantes"/>
+      <territoryOwner territory="Corionototae" owner="Brigantes"/>
+      <territoryOwner territory="Carvetii" owner="Brigantes"/>
+      <territoryOwner territory="N. Brigantes" owner="Brigantes"/>
+      <territoryOwner territory="N. Rheged" owner="Brigantes"/>
+      <territoryOwner territory="S. Rheged" owner="Brigantes"/>
+      <territoryOwner territory="S. Brigantes" owner="Brigantes"/>
+      <territoryOwner territory="Verulamium" owner="Brythons"/>
+      <territoryOwner territory="E. Catuvellauni" owner="Brythons"/>
+      <territoryOwner territory="Camulodunum" owner="Brythons"/>
+      <territoryOwner territory="Llundein" owner="Brythons"/>
+      <territoryOwner territory="Trinovantes" owner="Brythons"/>
+      <territoryOwner territory="W. Catuvellauni" owner="Brythons"/>
+      <territoryOwner territory="Cantiaci" owner="Brythons"/>
+      <territoryOwner territory="Ordovices" owner="Welsh"/>
+      <territoryOwner territory="Mona" owner="Welsh"/>
+      <territoryOwner territory="W. Demetae" owner="Welsh"/>
+      <territoryOwner territory="Gangani" owner="Welsh"/>
+      <territoryOwner territory="E. Dumnonii" owner="Welsh"/>
+      <territoryOwner territory="W. Dumnonii" owner="Welsh"/>
+      <territoryOwner territory="Silures" owner="Welsh"/>
+      <territoryOwner territory="S. Demetae" owner="Welsh"/>
+      <territoryOwner territory="N. Demetae" owner="Welsh"/>
+    </ownerInitialize>
+    <unitInitialize>
+      <unitPlacement unitType="fort" territory="Verumandui" quantity="4"/>
+      <unitPlacement unitType="fort" territory="Bagacum" quantity="4"/>
+      <unitPlacement unitType="fort" territory="Gesoriacum" quantity="4"/>
+      <unitPlacement unitType="lightcavalry" territory="Smertae" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="cavalry" territory="Smertae" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="warband" territory="Smertae" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="lightcavalry" territory="S. Caledonii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="cavalry" territory="S. Caledonii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="warband" territory="S. Caledonii" quantity="2" owner="Caledonians"/>
+      <unitPlacement unitType="slingers" territory="S. Caledonii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="archers" territory="Creones" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="skirmishers" territory="Creones" quantity="2" owner="Caledonians"/>
+      <unitPlacement unitType="lightcavalry" territory="N. Caledonii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="cavalry" territory="N. Caledonii" quantity="2" owner="Caledonians"/>
+      <unitPlacement unitType="archers" territory="N. Caledonii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="warband" territory="N. Caledonii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="warband" territory="Leodhas" quantity="2" owner="Caledonians"/>
+      <unitPlacement unitType="warlord" territory="Caereni" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="chariot" territory="Caereni" quantity="2" owner="Caledonians"/>
+      <unitPlacement unitType="cavalry" territory="Caereni" quantity="2" owner="Caledonians"/>
+      <unitPlacement unitType="slingers" territory="Caereni" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="skirmishers" territory="Caereni" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="warband" territory="Caereni" quantity="2" owner="Caledonians"/>
+      <unitPlacement unitType="swordsmen" territory="Caereni" quantity="2" owner="Caledonians"/>
+      <unitPlacement unitType="city" territory="Caereni" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="skirmishers" territory="Skye" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="cavalry" territory="E. Taexali" quantity="1"/>
+      <unitPlacement unitType="skirmishers" territory="E. Taexali" quantity="2"/>
+      <unitPlacement unitType="warband" territory="E. Taexali" quantity="2"/>
+      <unitPlacement unitType="skirmishers" territory="Cornovii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="warband" territory="Cornovii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="swordsmen" territory="Cornovii" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="warband" territory="Sealtainn" quantity="1"/>
+      <unitPlacement unitType="warband" territory="Orcades" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="cavalry" territory="S. Taexali" quantity="1"/>
+      <unitPlacement unitType="warband" territory="S. Taexali" quantity="1"/>
+      <unitPlacement unitType="cavalry" territory="Vacomagi" quantity="1"/>
+      <unitPlacement unitType="warband" territory="Vacomagi" quantity="1"/>
+      <unitPlacement unitType="lightcavalry" territory="N.Taexali" quantity="1"/>
+      <unitPlacement unitType="cavalry" territory="N.Taexali" quantity="1"/>
+      <unitPlacement unitType="warband" territory="N.Taexali" quantity="1"/>
+      <unitPlacement unitType="warlord" territory="C. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="chariot" territory="C. Brigantes" quantity="2" owner="Brigantes"/>
+      <unitPlacement unitType="cavalry" territory="C. Brigantes" quantity="2" owner="Brigantes"/>
+      <unitPlacement unitType="slingers" territory="C. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="skirmishers" territory="C. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="warband" territory="C. Brigantes" quantity="2" owner="Brigantes"/>
+      <unitPlacement unitType="swordsmen" territory="C. Brigantes" quantity="2" owner="Brigantes"/>
+      <unitPlacement unitType="city" territory="C. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="lightcavalry" territory="Corionototae" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="cavalry" territory="Corionototae" quantity="2" owner="Brigantes"/>
+      <unitPlacement unitType="warband" territory="Corionototae" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="swordsmen" territory="Corionototae" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="lightcavalry" territory="Carvetii" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="cavalry" territory="Carvetii" quantity="2" owner="Brigantes"/>
+      <unitPlacement unitType="skirmishers" territory="Carvetii" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="skirmishers" territory="N. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="archers" territory="N. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="warband" territory="N. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="archers" territory="N. Rheged" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="warband" territory="N. Rheged" quantity="2" owner="Brigantes"/>
+      <unitPlacement unitType="skirmishers" territory="S. Rheged" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="warband" territory="S. Rheged" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="lightcavalry" territory="S. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="cavalry" territory="S. Brigantes" quantity="2" owner="Brigantes"/>
+      <unitPlacement unitType="warband" territory="S. Brigantes" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="warlord" territory="Verulamium" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="chariot" territory="Verulamium" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="cavalry" territory="Verulamium" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="slingers" territory="Verulamium" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="skirmishers" territory="Verulamium" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="warband" territory="Verulamium" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="swordsmen" territory="Verulamium" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="city" territory="Verulamium" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="cavalry" territory="E. Catuvellauni" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="skirmishers" territory="E. Catuvellauni" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="warband" territory="E. Catuvellauni" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="cavalry" territory="Camulodunum" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="slingers" territory="Camulodunum" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="warband" territory="Camulodunum" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="warband" territory="Llundein" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="swordsmen" territory="Llundein" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="skirmishers" territory="Llundein" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="lightcavalry" territory="Trinovantes" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="cavalry" territory="Trinovantes" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="archers" territory="Trinovantes" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="warband" territory="Trinovantes" quantity="2" owner="Brythons"/>
+      <unitPlacement unitType="slingers" territory="W. Catuvellauni" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="warband" territory="W. Catuvellauni" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="warband" territory="Cantiaci" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="cavalry" territory="Cantiaci" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="warlord" territory="Ordovices" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="chariot" territory="Ordovices" quantity="2" owner="Welsh"/>
+      <unitPlacement unitType="cavalry" territory="Ordovices" quantity="2" owner="Welsh"/>
+      <unitPlacement unitType="slingers" territory="Ordovices" quantity="2" owner="Welsh"/>
+      <unitPlacement unitType="skirmishers" territory="Ordovices" quantity="2" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="Ordovices" quantity="2" owner="Welsh"/>
+      <unitPlacement unitType="swordsmen" territory="Ordovices" quantity="2" owner="Welsh"/>
+      <unitPlacement unitType="city" territory="Ordovices" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="Mona" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="lightcavalry" territory="W. Demetae" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="skirmishers" territory="W. Demetae" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="skirmishers" territory="W. Demetae" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="skirmishers" territory="Gangani" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="Gangani" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="lightcavalry" territory="E. Dumnonii" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="cavalry" territory="E. Dumnonii" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="E. Dumnonii" quantity="2" owner="Welsh"/>
+      <unitPlacement unitType="skirmishers" territory="W. Dumnonii" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="archers" territory="W. Dumnonii" quantity="2" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="W. Dumnonii" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="slingers" territory="Silures" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="Silures" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="slingers" territory="S. Demetae" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="S. Demetae" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="lightcavalry" territory="N. Demetae" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="cavalry" territory="N. Demetae" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="N. Demetae" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="skirmishers" territory="Epidii" quantity="2"/>
+      <unitPlacement unitType="warband" territory="Epidii" quantity="2"/>
+      <unitPlacement unitType="bireme" territory="SZ56" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="skirmishers" territory="N. Belgiae" quantity="3"/>
+      <unitPlacement unitType="warband" territory="N. Belgiae" quantity="4"/>
+      <unitPlacement unitType="skirmishers" territory="W. Coritani" quantity="3"/>
+      <unitPlacement unitType="warband" territory="W. Coritani" quantity="3"/>
+      <unitPlacement unitType="skirmishers" territory="Ergyng" quantity="2"/>
+      <unitPlacement unitType="warband" territory="Ergyng" quantity="2"/>
+      <unitPlacement unitType="skirmishers" territory="E. Coritani" quantity="3"/>
+      <unitPlacement unitType="warband" territory="E. Coritani" quantity="3"/>
+      <unitPlacement unitType="skirmishers" territory="Parisii" quantity="3"/>
+      <unitPlacement unitType="warband" territory="Parisii" quantity="3"/>
+      <unitPlacement unitType="bireme" territory="SZ30" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="skirmishers" territory="Atrebates" quantity="2"/>
+      <unitPlacement unitType="warband" territory="Atrebates" quantity="3"/>
+      <unitPlacement unitType="skirmishers" territory="S. Cornovii" quantity="1"/>
+      <unitPlacement unitType="warband" territory="S. Cornovii" quantity="2"/>
+      <unitPlacement unitType="bireme" territory="SZ39" quantity="1" owner="Welsh"/>
+      <unitPlacement unitType="warband" territory="W. Novantae" quantity="2"/>
+      <unitPlacement unitType="skirmishers" territory="Mannin" quantity="2"/>
+      <unitPlacement unitType="warband" territory="Mannin" quantity="1"/>
+      <unitPlacement unitType="skirmishers" territory="Regni" quantity="2"/>
+      <unitPlacement unitType="warband" territory="Regni" quantity="2"/>
+      <unitPlacement unitType="skirmishers" territory="N. Damnoni" quantity="3"/>
+      <unitPlacement unitType="warband" territory="N. Damnoni" quantity="2"/>
+      <unitPlacement unitType="bireme" territory="SZ49" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="bireme" territory="SZ48" quantity="1" owner="Brythons"/>
+      <unitPlacement unitType="skirmishers" territory="N. Durotriges" quantity="2"/>
+      <unitPlacement unitType="warband" territory="N. Durotriges" quantity="2"/>
+      <unitPlacement unitType="warband" territory="S. Damnoni" quantity="2"/>
+      <unitPlacement unitType="bireme" territory="SZ12" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="bireme" territory="SZ18" quantity="1" owner="Caledonians"/>
+      <unitPlacement unitType="skirmishers" territory="N. Cornovii" quantity="3"/>
+      <unitPlacement unitType="warband" territory="N. Cornovii" quantity="1"/>
+      <unitPlacement unitType="skirmishers" territory="Selgovae" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="warband" territory="Selgovae" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="skirmishers" territory="N. Votadini" quantity="2"/>
+      <unitPlacement unitType="warband" territory="N. Votadini" quantity="2"/>
+      <unitPlacement unitType="skirmishers" territory="Dobunni" quantity="4"/>
+      <unitPlacement unitType="warband" territory="Dobunni" quantity="3"/>
+      <unitPlacement unitType="bireme" territory="SZ27" quantity="1" owner="Brigantes"/>
+      <unitPlacement unitType="skirmishers" territory="E. Novantae" quantity="2"/>
+      <unitPlacement unitType="warband" territory="Strathclyde" quantity="3"/>
+      <unitPlacement unitType="skirmishers" territory="S. Durotriges" quantity="1"/>
+      <unitPlacement unitType="warband" territory="S. Durotriges" quantity="3"/>
+      <unitPlacement unitType="skirmishers" territory="Deceangli" quantity="1"/>
+      <unitPlacement unitType="warband" territory="Deceangli" quantity="2"/>
+      <unitPlacement unitType="skirmishers" territory="Venicones" quantity="1"/>
+      <unitPlacement unitType="warband" territory="Venicones" quantity="3"/>
+      <unitPlacement unitType="skirmishers" territory="S. Votadini" quantity="1"/>
+      <unitPlacement unitType="warband" territory="S. Votadini" quantity="3"/>
+      <unitPlacement unitType="skirmishers" territory="S. Belgiae" quantity="1"/>
+      <unitPlacement unitType="warband" territory="S. Belgiae" quantity="3"/>
+      <unitPlacement unitType="warband" territory="Iceni" quantity="2"/>
+      <unitPlacement unitType="warband" territory="Islay" quantity="1"/>
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="Caledonians" resource="PUs" quantity="15"/>
+      <resourceGiven player="Brigantes" resource="PUs" quantity="15"/>
+      <resourceGiven player="Brythons" resource="PUs" quantity="15"/>
+      <resourceGiven player="Welsh" resource="PUs" quantity="15"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <property name="Honorable Surrender" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Caledonian bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Brigantes bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Welsh bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Brythons bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="mapName" value="roman_invasion" editable="false"/>
+    <property name="notes" value="&lt;H1&gt;Britannia. Pre-Roman FFA By WilfredOwen&lt;br&gt;&lt;/H1&gt; for Triplea 1.2.x.x&lt;br&gt;&lt;br&gt;Britannia 43 AD.&lt;br&gt;&lt;br&gt;The Britons are certainly not unified. In the north the Caledonians look south for expansion. In the south the Catuvellauni have displaced the Trinovantes as the most powerful kingdom in south-eastern Britain, taking over the former Trinovantian capital of Camulodunum.&lt;br&gt;The welsh, in the west, have remained quiet too long.&lt;br&gt;The Brigantes are expanding their power in the centre of Briton conquering weaker neighbours.&lt;br&gt;Who will dominate and become lord of Britannia? Let conquest begin.&lt;br&gt;&lt;br&gt; CANALS:&lt;br&gt;anglesey (Mona,Gangani)&lt;br&gt;pentland (Cornovii,Orcades)&lt;br&gt;&lt;br&gt;&lt;br&gt;  UNITS and Rules:&lt;br&gt;Maximum of 4 forts can be built in any territory. May build 1 per round. Use edit to place fort in non-city territory.&lt;br&gt;Cities are permanent and can be captured.&lt;br&gt; Generals/Warlords can move and raise troops in the territory they occupy, if you owned that territory at the start of your turn.  When purchased you may place the General/Warlord in any territory you owned at the start of your turn.&lt;br&gt;&lt;br&gt;&lt;br&gt;  &lt;br&gt; &lt;br&gt;Unit List:&lt;br&gt;Infantry units have a transport cost of 2. All other units including Cavalry, Elephants, Ballistas and Onagers have a transport cost of 3.&lt;br&gt;&lt;br&gt;attack/defense/movement/cost .... special &lt;br&gt;1/3/1/7 (buy 2) Archer auxilia . Gives support +1  attack&lt;br&gt;1/1/1/2 Light auxilia . &lt;br&gt;1/1/1/5 (Buy 2) Balaeric slingers. Gives support +1  attack &lt;br&gt;1/2/1/3 Auxilia . Supportable &lt;br&gt;2/3/1/na Legionary cohort . Supportable &lt;br&gt;4/1/1/5 Ballista . Gives support +1  attack&lt;br&gt;5/3/1/7 Onager . Gives support +1  attack&lt;br&gt;1/1/2/3 Cavalry auxilia . Blitz &lt;br&gt;1/2/2/na Horse archers . Blitz , Gives support +1  attack &lt;br&gt;3/2/2/6 Roman Cavalry . Blitz &lt;br&gt;4/4/2/na Cataphractarii . Blitz &lt;br&gt;5/5/1/na Elephants .&lt;br&gt;0/4/0/6 Forts . Two hit, Repairs&lt;br&gt;1/3/1/7 (Buys 2) Archers. Blitz, Gives support +1  attack&lt;br&gt;1/1/1/2 Skirmishers .  &lt;br&gt;1/1/1/5 (Buys 2) Slingers . Gives support +1  attack &lt;br&gt;1/2/1/3 Warband . Supportable &lt;br&gt;2/2/1/4 Swordsmen . Supportable&lt;br&gt;3/1/1/4 Berzerkers . Supportable&lt;br&gt;1/1/2/3 Light Cavalry . Blitz&lt;br&gt;2/1/2/4 Cavalry . Blitz&lt;br&gt;4/4/2/6 Chariot . Blitz, Gives support +1  attack &lt;br&gt;0/1/1/6 Transport . TCapacity: 8&lt;br&gt;2/2/1/6 Bireme . TCapacity: 4&lt;br&gt;3/3/1/8 Trireme . TCapacity: 6&lt;br&gt;0/0/0/15 City.Can Produce Units, Can be Captured &lt;br&gt;0/0/2/20 General/Warlord. Can Produce Units on Territory you owned at start of turn, Can be Transported   &lt;br&gt; &lt;br&gt;TIPS &lt;br&gt; &lt;br&gt;Britons.&lt;br&gt;You can certainly make agreements with other players but as there are no formal alliances players may not share territories without combat. To survive the Britons must make temporary alliances, but they must also expand their borders and weaken their neighbours to have any hope of ruling Britannia. &lt;br&gt; &lt;br&gt; &lt;br&gt;  "/>
+  </propertyList>
+</game>
