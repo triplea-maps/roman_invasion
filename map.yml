@@ -1,0 +1,7 @@
+map_name: roman_invasion
+games:
+- {game_name: 'Britannia: Roman_Invasion_FFA', file_name: Britannia_Roman_Invasion_1_2_7_FFA.xml}
+- {game_name: 'Britannia: Pre_Roman_4_Nation_FFA', file_name: Britannia_Pre_Roman_4_Nation_1_2_7_FFA.xml}
+- {game_name: 'Britannia: Roman_Invasion_Alliance1', file_name: Britannia_Roman_Invasion_1_2_7_alliance1.xml}
+- {game_name: 'Britannia: Roman_Invasion_Alliance2', file_name: Britannia_Roman_Invasion_1_2_7_alliance2.xml}
+- {game_name: 'Britannia: Pre_Roman_4_Nation_Alliance', file_name: Britannia_Pre_Roman_4_Nation_1_2_7_alliance.xml}
